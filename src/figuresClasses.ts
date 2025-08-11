@@ -1,5 +1,6 @@
 type Shape = 'triangle' | 'circle' | 'rectangle';
 type Color = 'red' | 'green' | 'blue';
+
 export interface Figure {
   shape: Shape;
   color: Color;
